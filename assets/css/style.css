@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.side_logo img{
+    float: left;
+    padding-left: 30px;
+    padding-top: 25px;
+  
+
+}
+.middle_part img{
+    width:289px ;
+    height: 309px;
+    padding-right: 44px;
+    padding-left: 44px;
+    padding-top: 38px;
+    
+  
+}
+.content{
+   padding: 40px;
+   text-align: center;
+}
+.content h1{
+    font-size: 39px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+}
+.content h3{
+    font-size: 17px;
+    line-height: 26px;
+    color: #818593;
+    font-weight: 500;
+    font-family: "Helvetica Neue";
+    text-align: center;
+}
+.button{
+    padding-top: 25px;
+  
+}
+#btn_one{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #225dd9;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 20px;
+   
+   
+
+}
+#btn_two{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: grey;
+    font-weight: 700;
+ 
+}
+#btn_one:hover
+{
+    color:red;
+}
+#btn_two:hover{
+    color: red;
+}
+ .text{
+    padding-top: 30px;
+    font-size: 17px;
+    color: #818593;
+    font-weight: 500;
+    font-family: "Helvetica Neue";
+    
+}
+footer{
+    padding-top: 40px;
+}
+
+footer i.fa.fa-facebook,.fa.fa-google,.fa.fa-phone{
+    border-radius: 50%;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 25px;
+    color: #2033a0;
+    border: 2px solid #2033a0;
+    
+  
+}
